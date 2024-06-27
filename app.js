@@ -3,6 +3,7 @@ let fs = require('fs')
 let sprite_template = `<Sprite
 filename="$0"
 offset_x="0"
+offset_y="$1"
 default_animation="stand" >
 
 <!-- animation -->
